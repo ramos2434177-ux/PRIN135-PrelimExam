@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PRIN135-PrelimExam</title>
+    </head>
+
+    <body>
+        <section>
+            <img src="https://www.vie-aesthetics.com/wp-content/uploads/2021/09/shutterstock_1877631178-600x600.jpg" alt="Profile Picture" />
+            <h1>Dart Somar</h1>
+        </section>
+
+        <section>
+            <h2><a href="email@email.com">email@email.com</a><h2>
+            <h2>09999999999</h2>
+            <h2><a href="https://github.com/ramos2434177-ux/PRIN135-PrelimExam">Profile.github.com</a></h2>
+        </section>
+
+        <section>
+            <h1>Skills</h1>
+            <ol>
+                <li>Skill1</li>
+                <li>Skill2</li>
+                <li>Skill3</li>
+            </ol>
+        </section>
+
+        <section>
+            <h1>Education</h1>
+            <ol>
+                <li>Gradeschool</li>
+                <li>Highschool</li>
+                <li>College</li>
+            </ol>
+        </section>
+
+        <section>
+            <h1>Awards and Achievements</h1>
+            <ol>
+                <li>Award</li>
+                <li>Award</li>
+                <li>Award</li>
+            </ol>
+        </section>
+
+        <section>
+            <h1>Contact Me</h1>
+            <label for="name">Name:</label>
+            <input required type="text" id="name" name="name" placeholder="John Doe" />
+
+            <label for="email">Email:</label>
+            <input required type="email" id="email" name="email" placeholder="johndoe@gmail.com" />
+
+            <label for="message">Message:</label>
+            <input required type="textbox" id="message" name="message" />
+
+            <button type="submit">Contact Me</button>
+        </section>
+    </body>
+</html>
