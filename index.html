@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>PRIN135-PrelimExam</title>
-    </head>
 
-    <body>
-        <header>
-            <nav>
-                <p><a href="#profile">Profile</a> | <a href="#skills">Skills</a> | <a href="#education">Education</a> | <a href="#awards-and-achievements">Awards and Achievements</a> | <a href="#contact-me">Contact Me</a></p>
-            </nav>
-        </header>
-        
-        <section id="profile">
-            <img src="https://www.vie-aesthetics.com/wp-content/uploads/2021/09/shutterstock_1877631178-600x600.jpg" alt="Profile Picture" width="300" />
-            <h1>Dart Jhacob D.C. Ramos</h1>
-            <p><a href="mailto:dartjhacob@gmail.com" target="_blank">dartjhacob@gmail.com</a> | <a href="tel:+639999999999" target="_blank">+63999999999</a> | <a href="https://github.com/ramos2434177-ux" target="_blank">dartramos.github.com</a></p>
-            <p>A 3rd year college student that is currently taking Bachelor of Science in<br>Information and Technology in Centro Escolar University-Malolos.</p>
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PRIN135 - Midterm Exam | Portfolio</title>
+</head>
 
-        <section id="skills">
-            <h2><u>Skills</u></h2>
-            <ul>
+<body id="top">
+
+    <!-- ---------- Navigation ---------- -->
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ---------- Header ---------- -->
+    <header class="site-header">
+        <div class="header-inner clearfix">
+
+            <div class="photo-box">
+                <div class="photo-frame">
+                    <!-- Replace the image with your own profile picture -->
+                    <img class="photo" src="https://www.vie-aesthetics.com/wp-content/uploads/2021/09/shutterstock_1877631178-600x600.jpg" alt="Profile picture of Juan Dela Cruz">
+                </div>
+            </div>
+
+            <div class="header-text">
+                <h1 class="name">Dart Jhacob D.C. Ramos</h1>
+                <ul class="header-links">
+                    <li><a href="tel:+639999999999">+63 999 999 9999</a></li>
+                    <li><a href="mailto:dartjhacob@gmail.com">dartjhacob@gmail.com</a></li>
+                    <li><a href="https://github.com/ramos2434177-ux" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+                <p class="profile">
+                    A 3rd year college student that is currently taking Bachelor of Science in Information and Technology in Centro Escolar University-Malolos.
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="wrapper">
+
+        <!-- ---------- Skills ---------- -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul class="skill-list">
                 <li>Coding</li>
                 <li>Cooking</li>
                 <li>Playing Video Games</li>
@@ -31,48 +68,89 @@
             </ul>
         </section>
 
-        <section id="education">
-            <h2><u>Education</u></h2>
-            <ol>
-                <li>Gradeschool - Holy Spirit Academy of Malolos</li>
-                <li>Highschool -  Centro Escolar Integrated School</li>
-                <li>College - Centro Escolar University</li>
-            </ol>
+        <!-- ---------- Education ---------- -->
+        <section id="education" class="card">
+            <h2>Education</h2>
+
+            <div class="entry">
+                <span class="entry-year">2023 - Present</span>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p class="entry-school">Central Escolar University, Malolos</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">2018 - 2023</span>
+                <h3>High School - STEM Strand</h3>
+                <p class="entry-school">Centro Escolar Integrated School</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">2012 - 2018</span>
+                <h3>Grade School</h3>
+                <p class="entry-school">Holy Spirit Academy of Malolos</p>
+            </div>
+
         </section>
 
-        <section id="awards-and-achievements">
-            <h2><u>Awards and Achievements</u></h2>
-            <ol>
-                <li>Perfect Attendance Award (2017)</li>
-                <li>No Tardy Award (2018)</li>
-                <li>With Honors Award (2024)</li>
-                <li>Dean's Lister 1st Year (2025)</li>
-                <li>Dean's Lister 2nd Year (2026)</li>
-                <li>Most Handsomest Person Alive (2026)</li>
-                <li>GitHub Project Collaborator 2026</li>
-            </ol>
+        <!-- ---------- Achievements ---------- -->
+        <section id="achievements" class="card">
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>
+                    <strong>GitHub Project Collaborator</strong> - 2026
+                </li>
+                <li>
+                    <strong>Most Handsomest Person Alive</strong> - 2026
+                </li>
+                <li>
+                    <strong>Dean's Lister 2nd Year</strong> - 1st and 2nd Semester, A.Y. 2025-2026
+                </li>
+                <li>
+                    <strong>Dean's Lister 1st Year</strong> - 1st and 2nd Semester, A.Y. 2024-2025
+                </li>
+                <li>
+                    <strong>With Honors</strong> - Senior High School, 2024
+                </li>
+                <li>
+                    <strong>No Tardy Award</strong> - High School, 2018
+                </li>
+                <li>
+                    <strong>Perfect Attendance Award</strong> - Grade School, 2017
+                </li>
+            </ul>
         </section>
 
-        <section id="contact-me">
-            <h2><u>Contact Me</u></h2>
-            <form>
-                <label for="name">Name:</label><br><br>
-                <input required type="text" id="name" maxlength="25" name="name" placeholder="Dart Ramos" /><br><br>
+        <!-- ---------- Contact me ---------- -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row clearfix">
+                    <div class="field field-left">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Dart Ramos" required>
+                    </div>
 
-                <label for="email">Email:</label><br><br>
-                <input required type="email" id="email" maxlength="25" name="email" placeholder="dartramos@gmail.com" /><br><br>
+                    <div class="field field-right">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="dartramos@gmail.com" required>
+                    </div>
+                </div>
 
-                <label for="message">Message:</label><br><br>
-                <textarea required cols="30" rows="5" id="message" maxlength="255" name="message" placeholder="Enter your message here."></textarea><br><br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message here." required></textarea>
 
-                <button type="submit">Contact Me</button>
+                <button type="submit">Send Message</button>
             </form>
         </section>
 
-        <footer>
-            <nav>
-                <p><a href="#profile">Profile</a> | <a href="#skills">Skills</a> | <a href="#education">Education</a> | <a href="#awards-and-achievements">Awards and Achievements</a> | <a href="#contact-me">Contact Me</a></p>
-            </nav>
-        </footer>
-    </body>
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="site-footer">
+        <p class="footer-name">Dart Jhacob D.C. Ramos &middot; Portfolio</p>
+        <a href="#top" class="back-to-top">Back to top &uarr;</a>
+    </footer>
+
+</body>
+
 </html>
